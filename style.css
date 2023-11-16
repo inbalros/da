@@ -1,0 +1,47 @@
+body {
+    background-image: url('p2.png'); /* Replace with the path to the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #900; /* Darker shade of red */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f8f8f8; /* Light background for sections */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #900; /* Consistent with header */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.2);
+}
